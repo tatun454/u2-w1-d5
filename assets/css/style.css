@@ -1,0 +1,155 @@
+/* style.css */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #fff;
+  color: #191919;
+  margin: 0;
+  padding-top: 88px;
+}
+
+header {
+  background: #ffc017;
+  border-bottom: 1px solid #191919;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  background: #ffc017;
+  width: 100%;
+  border-bottom: #191919 solid 1px;
+}
+
+.navbar .logo img {
+  height: 40px;
+  display: flex;
+}
+.navbar .logo {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar nav ul li {
+  font-size: 16px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: #191919;
+  font-weight: 500;
+}
+
+.navbar .cta {
+  background: #1a8917;
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  padding: 8px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 16px;
+  margin-right: 60px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 48px 40px 48px;
+}
+
+.hero-content h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.hero-content button {
+  background: #191919;
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  padding: 12px 32px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-artwork {
+  width: 350px;
+  height: 300px;
+}
+
+main {
+  background: #fff;
+  padding: 48px;
+}
+.author-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.feed article {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 32px;
+}
+
+.feed .author {
+  font-size: 14px;
+  color: #757575;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.feed h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.feed p {
+  font-size: 16px;
+  color: #444;
+  margin: 0 0 12px 0;
+}
+
+.feed .date {
+  font-size: 13px;
+  color: #757575;
+}
